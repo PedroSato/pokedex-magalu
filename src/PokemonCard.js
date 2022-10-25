@@ -26,7 +26,7 @@ const PokemonCard = ({ name, url }) => {
         src={pokemons.front_default}
         alt={name}
       />
-      <div style={{ textAlign: "center" }}>{name}</div>
+      <div style={{ textAlign: "center", fontSize: "30px" }}>{name}</div>
     </div>
   );
 };
